@@ -10,7 +10,7 @@ if ((!isset($_SESSION['username'])) || (!isset($_SESSION['userID']))){
 // --------------------------------------------------------
 
 $customJS = 'page-identification.js, orp-audio-player.js, dropzone.js, upload-file.js, morse-resampler.js, morse-XAudioServer.js, morse.js, morse-main.js'; // 'file1.js, file2.js, ... '
-$customCSS = 'page-identification.css, orp-audio-player.css, upload-file.css'; // 'file1.css, ... '
+$customCSS = 'page-identification.css, orp-audio-player.css, upload-file.css'; // 'file1.css, file2.css, ... '
 
 include('includes/header.php');
 
